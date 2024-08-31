@@ -1,0 +1,22 @@
+{% include 'base.html' %}
+
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+    <title>Document</title>
+</head>
+<body>
+    {% block content %}
+    <div id="encabezado">
+        <h1>Hola this is my first web page</h1>
+    </div>
+    
+    {% endblock %}
+    
+</body>
+</html>
